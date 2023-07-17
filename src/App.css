@@ -1,0 +1,37 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(26, 78, 82);
+  color: #fff;
+  padding-top: 5vw;
+  padding-bottom: 60px;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 4.5vw;
+  padding-bottom: 16px
+}
+
+.trending,
+.movies,
+.tvSeries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1000px) {
+  .App {
+    padding-top: 10vw;
+  }
+
+  .pageTitle {
+    font-size: 6vw;
+  }
+}
